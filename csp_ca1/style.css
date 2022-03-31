@@ -1,0 +1,114 @@
+table,
+th,
+td {
+    border: 2px solid black;
+    text-align: center;
+    max-width: 450px;
+
+
+}
+
+th {
+    background-color: #00000020;
+}
+
+body {
+    background-color: bisque;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.content {
+    background-color: white;
+    margin: 60px 10% 8px 10%;
+    padding: 30px;
+    min-width: 356px;
+    box-shadow: 0px 0px 8px 8px rgba(10, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+div.smal-content {
+    max-width: 450px;
+    margin-top: 8px;
+    border-radius: 20px;
+
+}
+
+.separator2 {
+    height: 3px;
+    min-width: 356px;
+    background-color: #00000090;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+h4 {
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+h5 {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 20px;
+    
+
+}
+
+div.content-img {
+    width: 265px;
+    background-color: white;
+    margin-top: 10px;
+    margin: 10px;
+    max-width: 345px;
+    box-shadow: 0px 0px 8px 8px rgba(10, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+    font-family: ariel;
+
+}
+
+img.content-img {
+    margin-top: 10px;
+
+}
+
+img.financial {
+    width: 265px;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.logo {
+    border: none;
+    display: inline-block;
+
+
+
+}
+#see{
+    margin-top: 10px;
+}
+footer{
+    margin: 20px 10% 8px 10%;
+    padding-left: 30px;
+    min-width: 356px;
+    
+}
+
+.inform{
+    font-size: 13px;
+    
+    
+}
