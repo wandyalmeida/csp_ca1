@@ -109,8 +109,8 @@ img.financial {
     margin-top: 10px;
 }
 footer{
-    margin: 0px 10% 8px 10%;
+    margin: -20px 10% 8px 10%;
     padding: 20px;
     min-width: 356px;
-    
+    font-size: 12px;  
 }
