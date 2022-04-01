@@ -53,10 +53,20 @@ h5 {
     font-weight: bold;
 }
 
+h7{
+    font-weight: bold;
+}
+
+.logos{
+    text-align: center;
+}
+
 p {
     margin-top: 20px;
-    
 
+}
+p.menu{
+    text-align: center;
 }
 
 div.content-img {
