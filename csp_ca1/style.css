@@ -1,3 +1,4 @@
+/* set the table style */
 table,
 th,
 td {
@@ -12,12 +13,14 @@ th {
     background-color: #00000020;
 }
 
+/* set the color and the font family on the body*/
 body {
     background-color: bisque;
     font-family: Arial;
     font-size: 16px;
 }
 
+/* set the main style*/
 .content {
     background-color: white;
     margin: 60px 10% 8px 10%;
@@ -27,14 +30,21 @@ body {
     border-radius: 5px;
 }
 
+/* set the nav style of the content*/
 div.smal-content {
     max-width: 450px;
     margin-top: 8px;
     border-radius: 20px;
+    
 
 }
+/* Set the P on nav class on center of the page*/
+p.menu{
+    text-align: center;
+}
 
-.separator2 {
+/* created a line between h1, h4 and p */
+.separator {
     height: 3px;
     background-color: #00000090;
     margin-left: auto;
@@ -57,18 +67,14 @@ h6{
     font-weight: bold;
 }
 
-.logos{
-    text-align: center;
-}
 
 p {
     margin-top: 20px;
 
 }
-p.menu{
-    text-align: center;
-}
 
+
+/* Set the div img style*/
 div.content-img {
     width: 265px;
     background-color: white;
@@ -98,16 +104,22 @@ img.financial {
     float: left;
 }
 
-.logo {
-    border: none;
-    display: inline-block;
-
-
+/* Set the img on logos class on center of the page*/
+.logos{
+    text-align: center;
+    
 
 }
+.logo {
+    display: inline-block;
+}
+
+/* Set some margin-top on the see also */
 #see{
     margin-top: 10px;
 }
+
+/* Set footer style */
 footer{
     margin: -20px 10% 8px 10%;
     padding: 20px;
