@@ -3,8 +3,7 @@ th,
 td {
     border: 2px solid black;
     text-align: center;
-    max-width: 450px;
-
+    max-width: 490px;
 
 }
 
@@ -36,7 +35,7 @@ div.smal-content {
 
 .separator2 {
     height: 3px;
-    min-width: 356px;
+    
     background-color: #00000090;
     margin-left: auto;
     margin-right: auto;
@@ -72,7 +71,6 @@ div.content-img {
     font-family: ariel;
 
 }
-
 
 
 img.financial {
