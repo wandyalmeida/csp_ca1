@@ -39,9 +39,15 @@ div.smal-content {
 
 }
 /* Set the P on nav class on center of the page*/
-p.menu{
+.menu{
     text-align: center;
 }
+
+i{
+    font-size: 40px;
+    text-shadow: 2px 2px 20px #ECF0F1;
+    margin-top: 10px;
+  }
 
 /* created a line between h1, h4 and p */
 .separator {
@@ -113,6 +119,24 @@ img.financial {
 .logo {
     display: inline-block;
 }
+
+.menus{
+    display: none;
+}
+
+.menu-title{
+    display: block;
+}
+
+.activ{
+    display: none;
+}
+
+.activ:checked + .menu-title .menus {
+    display: block;
+    
+}
+
 
 /* Set some margin-top on the see also */
 #see{
