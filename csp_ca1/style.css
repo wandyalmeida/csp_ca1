@@ -41,12 +41,20 @@ div.smal-content {
 /* Set the P on nav class on center of the page*/
 .menu{
     text-align: center;
+    
+}
+
+div p{
+    margin-top: 0;
 }
 
 i{
     font-size: 40px;
     text-shadow: 2px 2px 20px #ECF0F1;
     margin-top: 10px;
+    position: relative;
+    top: 6px;
+
   }
 
 /* created a line between h1, h4 and p */
@@ -73,11 +81,10 @@ h6{
     font-weight: bold;
 }
 
-
-p {
+p{
     margin-top: 20px;
-
 }
+
 
 
 /* Set the div img style*/
@@ -121,7 +128,7 @@ img.financial {
 }
 
 .menus{
-    display: none;
+    display: block;
 }
 
 .menu-title{
@@ -133,9 +140,10 @@ img.financial {
 }
 
 .activ:checked + .menu-title .menus {
-    display: block;
+    display: none;
     
 }
+
 
 
 /* Set some margin-top on the see also */
