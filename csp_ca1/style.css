@@ -14,13 +14,18 @@ th {
 }
 
 /* set the color and the font family on the body*/
-body {
-    background-color: bisque;
+body{
     font-family: Arial;
     font-size: 16px;
 }
 
+.body{
+    background-color: bisque;
+    transition: background 0.5s;
+}
+
 /* set the main style*/
+
 .content {
     background-color: white;
     margin: 60px 10% 8px 10%;
@@ -28,6 +33,7 @@ body {
     min-width: 570px;
     box-shadow: 0px 0px 8px 8px rgba(10, 0, 0, 0.6);
     border-radius: 5px;
+    transition: background 0.5s;
 }
 
 /* set the nav style of the content*/
@@ -145,6 +151,25 @@ img.financial {
     display: block;
 }
 
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #dbefff;
+    margin: 9px 0 0 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon::before{
+    content: "\f186";
+    font-family: fontAwesome;
+    color: #0088d2;
+    font-size: 20px;
+}
+
 .activ{
     display: none;
 }
@@ -167,4 +192,57 @@ footer{
     padding: 20px;
     min-width: 570px;
     font-size: 12px;  
+}
+
+/* dark mode */
+
+.body.dark{
+    background: #202026;    
+}
+
+.body.dark .icon::before{
+    content: "\f185";
+}
+
+.body.dark .content{
+    background: #323840;
+    box-shadow: 0px 0px 8px 8px rgba(255, 253, 253, 0.6);
+}
+
+.body.dark p{
+    color: #fff;
+}
+
+.body.dark h1{
+    color: #fff;
+}
+
+.body.dark h4{
+    color: #fff;
+}
+
+.body.dark h5{
+    color: #fff;
+}
+
+.body.dark h6{
+    color: #fff;
+}
+
+.body.dark table,
+th,
+td {
+    background: #fff;
+}
+
+.body.dark a{
+    color: #fff;
+}
+
+.body.dark li{
+    color: #fff;
+}
+
+.body.dark .offcanvas{
+    background: #323840;
 }
