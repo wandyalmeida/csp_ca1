@@ -31,9 +31,10 @@ body {
 }
 
 /* set the nav style of the content*/
-div.smal-content {
+.smal-content {
     max-width: 450px;
     margin-top: 8px;
+    margin-bottom: 8px;
     border-radius: 20px;
     
 
@@ -129,6 +130,15 @@ img.financial {
 
 .menus{
     display: block;
+}
+
+.btn{
+    margin: 3px 5px 0 0;
+
+}
+
+.btn:hover{
+    background-color: blue;
 }
 
 .menu-title{
